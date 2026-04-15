@@ -27,20 +27,6 @@ throw new ApiError(404, 'Resource not found', { resourceId });
 
 ---
 
-## Code Style Preferences
-
-*Document team preferences that go beyond standard linting rules.*
-
-### Example: Import Organization
-```typescript
-// Group imports: external, internal, types
-import { useState } from 'react';
-import { Button } from '@/components/ui';
-import type { User } from '@/types';
-```
-
----
-
 ## Kiro Hooks
 
 ### `install.sh` is additive-only — it won't update existing installations
